@@ -97,7 +97,9 @@
             <div class="social-container">
                 <div class="social-image">
                     <!-- inline SVG not included for brevity -->
-                    <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="green" d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"/></svg>
+                    <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path fill="green" d="M40.43,21.739h-7.645v-5.014c0-1.883,1.248-2.322,2.127-2.322c0.877,0,5.395,0,5.395,0V6.125l-7.43-0.029  c-8.248,0-10.125,6.174-10.125,10.125v5.518h-4.77v8.53h4.77c0,10.947,0,24.137,0,24.137h10.033c0,0,0-13.32,0-24.137h6.77  L40.43,21.739z"/>
+                    </svg>
                 </div>
                 <div class="social-text">
                     <p>Facebook</p>
@@ -132,6 +134,112 @@
                     <p>2,530</p>
                 </div>
             </div>
+            <!-- new members widget -->
+            <section class="members">
+                <h3>New Members</h3>
+                <div class="members-container">
+                    <img src="images/member-1.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Victoria Chambers</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-2.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dale Byrd</p>
+                        <a href="#">dale.byrd52@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-3.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dawn Wood</p>
+                        <a href="#">dawn.wood16@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-4.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dan Oliver</p>
+                        <a href="#">dan.oliver82@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+            </section>
+            <!-- recent activity widget -->
+            <section class="members">
+                <h3>Recent Activity</h3>
+                <div class="members-container">
+                    <img src="images/member-1.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Victoria Chambers</p>
+                        <a href="#">victoria.chambers80@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-2.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dale Byrd</p>
+                        <a href="#">dale.byrd52@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-3.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dawn Wood</p>
+                        <a href="#">dawn.wood16@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>
+                <div class="members-container">
+                    <img src="images/member-4.jpg"
+                class="profile-image">
+                    <div class="members-text">
+                        <p>Dan Oliver</p>
+                        <a href="#">dan.oliver82@example.com</a>
+                    </div>
+                    <p>10/15/15</p>
+                </div>  
+            </section>
+            <!-- messaging widget -->
+            <section class="message">
+                <h3>Message User</h3>
+                <form class="widget-container">
+                    <input type="text" placeholder="Search for user"
+                    class="form-field" id="userField">
+                    <textarea placeholder="Message for user" class="form-area"
+                    id= "messageField" ></textarea>
+                    <button class="button-primary" id="send" >Send</button>
+                </form>
+            </section>
+            <!-- local settings widget -->
+            <section class="settings">
+                <h3>Settings</h3>
+                <!-- custom CSS toggle code-->
+                <!-- custom CSS toggle code-->
+                <select class="form-field" id="timezone">
+                    <option disabled selected>Select a Timezone</option>
+                    <option>Eastern</option>
+                <!-- more options -->
+                </select>
+                <div class="settings-button" >
+                    <button class="button-primary" id="save">Save</button>
+                    <button class="button-disabled" id="cancel">Cancel</button>
+                </div>
+            </section>
         </div>
     </main>
 </body>
