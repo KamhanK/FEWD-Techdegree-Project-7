@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
 </head>
-<body>
+<body class="grid-container">
     <header>
-        <h1>YourApp</h1>
-        <div> <!-- contaniner for our bell icon -->
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <h1 class="app-name">YourApp</h1>
+        <div class="bell-container"> <!-- contaniner for our bell icon -->
+            <svg class="bell" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
                 <style type="text/css">
                     .st0{fill:#FFFFFF;}
@@ -26,7 +26,9 @@
             </svg>
             <div id="notifications"></div> <!-- container for our notifications -->
         </div>
-        <img src="images/member-2.jpg">
+        <div class="header-user">
+            <img src="images/member-2.jpg">
+        </div>
         <h3>Josh Sullivan</h3>
     </header>
     <nav>
@@ -36,7 +38,7 @@
         <a href="#"><img src="icons/icon-settings.svg"></a>
     </nav>
     <main>
-        <div class="grid">
+        <div>
             <div class="main-header"> <!-- row -->
                 <h2 class="headline">Dashboard</h2>
                 <div class="main-header-search">

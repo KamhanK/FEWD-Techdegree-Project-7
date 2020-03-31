@@ -1,3 +1,64 @@
+/* Base Styles */
+
 body {
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main";
+}
+
+header {
+    grid-area: header;
+    background-color: #7477BF;
+    height: 80px;
+
+}
+
+
+nav {
+    grid-area: nav;
     background-color: #4D4C72;
 }
+
+main {
+    grid-area: main; 
+}
+
+.bell {
+    width: 50px;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.app-name {
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
