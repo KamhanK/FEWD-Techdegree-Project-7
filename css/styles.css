@@ -62,6 +62,8 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .app-name {
@@ -71,6 +73,14 @@ header {
 .header-user-vr {
     border-left: 1px solid #FFFFFF;
     padding-left: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+span {
+    font-weight: 100;
 }
 
 
