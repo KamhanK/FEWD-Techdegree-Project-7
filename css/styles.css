@@ -45,6 +45,12 @@ span {
     margin-left: 10px;
 }
 
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Grid Styles */
 
 .grid-container {
@@ -124,7 +130,7 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 
-    .traffic, .social-container {
+    .traffic, .social {
         grid-column: 1 / span 2;
     }
 
@@ -144,6 +150,15 @@ main {
     ​.widget-container-half​ {
         width​: ​45vw​; 
     }
+}
+
+@media (min-width: 1024px) {
+       
+    .grid-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
 }
         
 
