@@ -50,6 +50,7 @@ span {
 .social {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     
 }
@@ -110,10 +111,6 @@ main {
     width: 25px;
     margin-left: 15px;
     margin-right: 15px;
-}
-
-.social-image {
-    width: 200px;
 }
 
 /* Media Queries */
