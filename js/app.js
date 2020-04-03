@@ -1,7 +1,6 @@
 /* Alert Banner */
 
 const alertBanner = document.getElementById("alert");
-const closeBanner = document.getElementById("close");
 
 // create the html for the banner
 alertBanner.innerHTML =
@@ -20,6 +19,8 @@ alertBanner.innerHTML =
 });
 
 /* Chart Widgets */
+
+// Traffic Widget
 
 const trafficCanvas = document.getElementById("traffic-chart");
 
@@ -56,3 +57,4 @@ let trafficChart = new Chart(trafficCanvas, {
     data: trafficData,
     options: trafficOptions
 });
+
