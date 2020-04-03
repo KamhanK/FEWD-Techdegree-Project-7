@@ -45,16 +45,6 @@ span {
     margin-left: 10px;
 }
 
-/* Flexbox Styles */
-
-.social {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 /* Grid Styles */
 
 .grid-container {
@@ -88,6 +78,16 @@ main {
     
 }
 
+/* Flexbox Styles */
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 /* Chart Styles */
 
 .widget-container-full​, ​
@@ -117,6 +117,13 @@ main {
 
 @media (min-width: 768px) {
     
+    /* Base Styles */
+
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
     /* Grid Styles */
 
     .grid-container {
