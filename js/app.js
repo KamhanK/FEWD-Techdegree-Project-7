@@ -20,7 +20,7 @@ alertBanner.innerHTML =
 
 /* Chart Widgets */
 
-// Traffic Widget
+// traffic widget
 
 const trafficCanvas = document.getElementById("traffic-chart");
 
