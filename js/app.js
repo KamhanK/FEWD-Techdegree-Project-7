@@ -16,7 +16,7 @@ alertBanner.innerHTML =
         if (element.classList.contains("alert-banner-close")) {
             alertBanner.style.display = "none";
         }
-});
+    });
 
 /* Chart Widgets */
 
