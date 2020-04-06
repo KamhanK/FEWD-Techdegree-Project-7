@@ -88,42 +88,12 @@ nav {
 
 main {
     grid-area: main; 
-    display: grid;
+    
 }
 
 .main-header {
     grid-area: main-header;
 }
-
-.main-header {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-}
-
-.alert {
-    grid-column: 1 / span 2;
-    grid-row: 2;
-}
-
-/* .traffic {
-    grid-column: 1 / span 2;
-    grid-row: 3;
-}
-
-.daily {
-    grid-column: 1 / span 1;
-    grid-row: 4;
-}
-
-.mobile {
-    grid-column: 2 / span 1;
-    grid-row: 4;
-}
-
-.social {
-    grid-column: 1 / span 2;
-    grid-row: 5;
-} */
 
 /* Flexbox Styles */
 
@@ -190,7 +160,7 @@ canvas {
 
 /* Media Queries */
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     
     /* Base Styles */
 
@@ -233,8 +203,19 @@ canvas {
         "nav main";
     }
         
-    .main {
+    main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .main-header {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+    
+    .alert {
+        grid-column: 1 / span 2;
+        grid-row: 2;
     }
 
     .traffic, .social {
@@ -272,7 +253,7 @@ canvas {
     }
 }
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
        
     .grid-container {
         max-width: 1200px;
