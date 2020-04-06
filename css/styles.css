@@ -39,6 +39,29 @@ span {
     margin-left: 10px;
 }
 
+.headline {
+    margin-right: auto;
+}
+
+.headline, h3 {
+    color: #676666;
+}
+
+.traffic-nav {
+    float: right;
+}
+
+li.traffic-nav-link {
+    float: left;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.traffic-h3 {
+    margin-right: auto;
+}
+
 /* Grid Styles */
 
 .grid-container {
@@ -68,6 +91,20 @@ main {
     display: grid;
 }
 
+.main-header {
+    grid-area: main-header;
+}
+
+.main-header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.alert {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
 /* Flexbox Styles */
 
 header {
@@ -80,6 +117,17 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.traffic-header {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .social {
@@ -131,10 +179,6 @@ canvas {
         padding-bottom: 15px;
     }
 
-    .user-img {
-        width: 40px;
-    }
-
     .hd-user-name {
         font-size: 1rem;
         margin: 0px 0px 0px 10px;
@@ -148,6 +192,10 @@ canvas {
 
     .bell {
         width: 25px;
+    }
+
+    .user-img {
+        width: 40px;
     }
 
     .nav-img {
