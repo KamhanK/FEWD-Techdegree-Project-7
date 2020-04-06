@@ -100,7 +100,7 @@ main {
 /* Image Styles */
 
 .bell {
-    width: 25px;
+    width: 20px;
     margin-right: 10px;
 }
 
@@ -126,15 +126,37 @@ main {
         padding-bottom: 15px;
     }
 
+    .bell {
+        width: 25px;
+    }
+
+    .user-img {
+        width: 40px;
+    }
+
+    .hd-user-name {
+        font-size: 1rem;
+        margin: 0px 0px 0px 10px;
+    }
+
     nav {
         flex-direction: column;
         justify-content: flex-start;
+        width: 85px;
+    }
+
+    /* Image Styles */
+
+    .nav-img {
+        width: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     /* Grid Styles */
 
     .grid-container {
-        grid-template-columns: 55px 1fr;
+        grid-template-columns: 85px 1fr;
         grid-template-areas:
         "header header"
         "nav main";
