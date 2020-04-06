@@ -121,6 +121,11 @@ main {
     
     /* Base Styles */
 
+    header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
     nav {
         flex-direction: column;
         justify-content: flex-start;

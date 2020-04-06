@@ -36,7 +36,7 @@ let trafficData = {
 };
 
 let trafficOptions = {
-    reponsive: true,
+    responsive: true,
     maintainApectRatio: true,
     aspectRatio: 2.5,
     animation: {
