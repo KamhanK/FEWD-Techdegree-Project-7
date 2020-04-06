@@ -140,8 +140,6 @@ main {
     }
 
     nav {
-        flex-direction: column;
-        justify-content: flex-start;
         width: 85px;
     }
 
@@ -179,6 +177,11 @@ main {
     }
 
     /* Flexbox Styles */
+
+    nav {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
     .social {
         flex-direction: row;
