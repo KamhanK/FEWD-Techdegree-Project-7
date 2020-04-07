@@ -66,32 +66,44 @@ li.traffic-nav-link {
     border-bottom: 1px solid #D8D8D8;
 }
 
+.daily {
+    border-bottom: 1px solid #D8D8D8;
+}
+
 .mobile {
-    border-left: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .social {
-    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.members {
     border-bottom: 1px solid #D8D8D8;
 }
 
 .activity {
-    border-left: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .message {
-    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
 }
 
-.settings {
-    border-top: 1px solid #D8D8D8;
-    border-left: 1px solid #D8D8D8;
+.main-header {
+    height: 100%;
 }
 
 .main-header-search {
     border-left: 1px solid #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
     background-color: #FBFBFB;
+    height: 100%;
+    width: 100%;
+}
+
+.search {
+    float: right;
 }
 
 /* Grid Styles */
@@ -224,6 +236,18 @@ canvas {
         width: 30px;
         margin-top: 15px;
         margin-bottom: 15px;
+    }
+    
+    .mobile {
+        border-left: 1px solid #D8D8D8;
+    }
+    
+    .activity {
+        border-left: 1px solid #D8D8D8;
+    }
+    
+    .settings {
+        border-left: 1px solid #D8D8D8;
     }
 
     /* Grid Styles */
