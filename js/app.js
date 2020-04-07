@@ -32,6 +32,7 @@ let trafficData = {
     2500],
         backgroundColor: 'rgba(116, 119, 191, .3)',
         borderWidth: 1,
+        lineTension: 0,
     }]
 };
 
