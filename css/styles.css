@@ -62,6 +62,38 @@ li.traffic-nav-link {
     margin-right: auto;
 }
 
+.traffic {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.mobile {
+    border-left: 1px solid #D8D8D8;
+}
+
+.social {
+    border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.activity {
+    border-left: 1px solid #D8D8D8;
+}
+
+.message {
+    border-top: 1px solid #D8D8D8;
+}
+
+.settings {
+    border-top: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+}
+
+.main-header-search {
+    border-left: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    background-color: #FBFBFB;
+}
+
 /* Grid Styles */
 
 .grid-container {
