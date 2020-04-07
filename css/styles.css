@@ -29,6 +29,10 @@ span {
     font-weight: 100;
 }
 
+.alert-banner span {
+    font-weight: normal;
+}
+
 .header-user-vr {
     border-left: 1px solid #FFFFFF;
     padding-left: 10px;
@@ -45,6 +49,10 @@ span {
 
 .headline, h3 {
     color: #676666;
+}
+
+main {
+    border-right: 1px solid #D8D8D8;
 }
 
 .traffic-nav {
@@ -94,16 +102,55 @@ li.traffic-nav-link {
     height: 100%;
 }
 
+.main-header,
+.traffic, 
+.daily, 
+.social, 
+.members, 
+.message {
+    padding-left: 1rem;
+}
+
+.traffic, 
+.mobile, 
+.social, 
+.activity, 
+.settings {
+    padding-right: 1rem;
+}
+
 .main-header-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     border-left: 1px solid #D8D8D8;
     border-bottom: 1px solid #D8D8D8;
     background-color: #FBFBFB;
     height: 100%;
     width: 100%;
+    margin-left: 1rem;
+    padding-right: 1rem;
 }
 
 .search {
-    float: right;
+    height: 1rem;
+    width: 100%;
+    max-width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #D8D8D8;
+}
+
+.alert {
+    background-color: #7377BF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 /* Grid Styles */
@@ -132,7 +179,6 @@ nav {
 
 main {
     grid-area: main; 
-    
 }
 
 .main-header {
