@@ -29,7 +29,7 @@ span {
     font-weight: 100;
 }
 
-.alert-banner span {
+.alert-banner-close {
     font-weight: normal;
 }
 
@@ -136,8 +136,8 @@ li.traffic-nav-link {
     height: 1rem;
     width: 100%;
     max-width: 400px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 1rem;
     border-radius: 5px;
     border: 1px solid #D8D8D8;
 }
@@ -268,6 +268,18 @@ canvas {
         width: 85px;
     }
 
+    .mobile {
+        border-left: 1px solid #D8D8D8;
+    }
+    
+    .activity {
+        border-left: 1px solid #D8D8D8;
+    }
+    
+    .settings {
+        border-left: 1px solid #D8D8D8;
+    }
+
     /* Image Styles */
 
     .bell {
@@ -284,18 +296,6 @@ canvas {
         margin-bottom: 15px;
     }
     
-    .mobile {
-        border-left: 1px solid #D8D8D8;
-    }
-    
-    .activity {
-        border-left: 1px solid #D8D8D8;
-    }
-    
-    .settings {
-        border-left: 1px solid #D8D8D8;
-    }
-
     /* Grid Styles */
 
     .grid-container {
