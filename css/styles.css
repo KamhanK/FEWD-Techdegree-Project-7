@@ -240,7 +240,8 @@ nav {
 }
 
 .social-container svg {
-    width: 45px;
+    width: 40px;
+    margin: auto;
 }
 
 .social-text {
