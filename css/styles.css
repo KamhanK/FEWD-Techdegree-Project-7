@@ -237,7 +237,14 @@ nav {
 
 .social-image {
     float: left;
-}
+    display: flex;
+    justify-content: space-around;
+    background-color: #7377BF;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-right: 1rem;
+  }
 
 .social-container svg {
     width: 40px;
@@ -251,6 +258,15 @@ nav {
 
 .social-text p {
     margin: 1px;
+}
+
+.social-hd-txt {
+    color: #7377BF;
+}
+
+.social-num-stat {
+    font-size: 2.5rem;
+    color: #666666;
 }
 
 /* Chart Styles */
