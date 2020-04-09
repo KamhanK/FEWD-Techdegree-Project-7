@@ -86,7 +86,6 @@ li.traffic-nav-link {
 .mobile, 
 .daily, 
 .social, 
-.members, 
 .message {
     padding-left: 1rem;
 }
@@ -270,6 +269,7 @@ nav {
 
 .twitter-svg {
     padding-top: 9px;
+    padding-left: 2px;
 }
 
 .facebook-svg {
@@ -295,8 +295,11 @@ nav {
     align-items: center;
 }
 
-.profile-image {
+.user-img {
     float: left;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: .75rem;
 }
 
 .members-text {
@@ -310,6 +313,36 @@ nav {
 
 .date {
     margin-left: auto;
+}
+
+.members,
+.activity {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.members-container {
+    border-bottom: 1px solid #D8D8D8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.members-container-bottom {
+    border-bottom: 0px;
+}
+
+.members-text,
+.date {
+    color: #676666;
+}
+
+.members-text a,
+.members-text a:link,
+.members-text a:visited,
+.members-text a:focus,
+.members-text a:hover,
+.members-text a:active {
+    color: #7377BF;
 }
 
 /* Chart Styles */
@@ -332,7 +365,7 @@ canvas {
     margin-right: 10px;
 }
 
-.user-img {
+.profile-image {
     width: 30px;
     border-radius: 50%;
 }
@@ -381,7 +414,7 @@ canvas {
         width: 25px;
     }
 
-    .user-img {
+    .profile-image {
         width: 40px;
     }
 
