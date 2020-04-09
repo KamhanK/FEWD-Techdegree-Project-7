@@ -85,8 +85,7 @@ li.traffic-nav-link {
 .traffic,
 .mobile, 
 .daily, 
-.social, 
-.message {
+.social {
     padding-left: 1rem;
 }
 
@@ -343,6 +342,18 @@ nav {
 .members-text a:hover,
 .members-text a:active {
     color: #7377BF;
+}
+
+/* Message Styles */
+
+.widget-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message {
+    padding: 1rem;
 }
 
 /* Chart Styles */
