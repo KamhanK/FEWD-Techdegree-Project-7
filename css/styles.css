@@ -399,7 +399,7 @@ li.traffic-nav-link {
 
 @media only screen and (min-width: 768px) {
     
-    /* Base Styles */
+    /* Base & Misc Styles */
 
     header {
         padding-top: 15px;
@@ -509,7 +509,7 @@ li.traffic-nav-link {
 
 @media only screen and (min-width: 1024px) {
        
-    /* Base Styles */
+    /* Base & Misc Styles */
 
     .grid-container {
         max-width: 1200px;
