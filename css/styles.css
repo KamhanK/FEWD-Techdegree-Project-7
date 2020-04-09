@@ -244,6 +244,7 @@ nav {
     width: 75px;
     height: 75px;
     margin-right: 1rem;
+    margin-left: 1rem;
   }
 
 .social-container svg {
@@ -256,17 +257,28 @@ nav {
     flex-direction: column;
 }
 
-.social-text p {
-    margin: 1px;
-}
-
 .social-hd-txt {
     color: #7377BF;
+    margin: 1rem 0px 0px 0px;
 }
 
 .social-num-stat {
     font-size: 2.5rem;
     color: #666666;
+    margin: 1px 1rem 1rem 0px;  
+}
+
+.twitter-svg {
+    padding-top: 9px;
+}
+
+.facebook-svg {
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+.google-svg {
+    padding-left: 3px;
 }
 
 /* Chart Styles */
