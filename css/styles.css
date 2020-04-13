@@ -493,7 +493,7 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-    transform: translateX(34px);
+    transform: translateX(59px);
 }
 
 .slider:after {
@@ -520,8 +520,6 @@ input:checked + .slider:after {
 .slider.round:before {
     border-radius: 50%;
 }
-
-
 
 select.form-field {
     height: 3rem;
