@@ -223,7 +223,7 @@
                 class="form-field" id="userField">
                 <textarea placeholder="Message for user" class="form-area"
                 id= "messageField" ></textarea>
-                <button class="button-primary" id="send" >Send</button>
+                <button class="button-primary" id="send" >SEND</button>
             </form>
         </section>
         <!-- local settings widget -->
@@ -244,9 +244,9 @@
                     <a></a>
                     </span>
                 </label>
-                </div>
+            </div>
             <!-- custom CSS toggle code-->
-                <div class="large-3">
+            <div class="large-3">
                 <label class="switch-light switch-material" onclick="">
                     <input type="checkbox">
         
@@ -260,14 +260,18 @@
                     <a></a>
                     </span>
                 </label>
-                </div>
+            </div>
+            <div class="timezone">
             <!-- select timezone -->
-            <select class="form-field" id="timezone">
-                <option disabled selected>Select a Timezone</option>
-                <option>Eastern</option>
-            <!-- more options -->
-            </select>
-            <div class="settings-button" >
+                <select class="form-field" id="timezone">
+                    <option disabled selected>Select a Timezone</option>
+                    <option>Eastern</option>
+                    <option>Central</option>
+                    <option>Mountain</option>
+                    <option>Pacific</option>
+                </select>
+            </div>
+            <div class="settings-button">
                 <button class="button-primary" id="save">Save</button>
                 <button class="button-disabled" id="cancel">Cancel</button>
             </div>
