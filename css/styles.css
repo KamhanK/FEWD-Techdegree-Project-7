@@ -431,6 +431,20 @@ li.traffic-nav-link {
     align-items: center;
 }
 
+.notif-email-txt,
+.send-profile-txt {
+  display: flex;
+  align-items: center;
+}
+.notif-email-txt label,
+.send-profile-txt label {
+  flex-basis: 60%;
+}
+.notif-email-txt input,
+.send-profile-txt input {
+  flex-basis: 40%;
+}
+
 .notif-email-txt {
     margin-top: 31px;
     margin-bottom: 30px;
@@ -443,10 +457,6 @@ li.traffic-nav-link {
 .large-3 strong {
     margin-right: auto;
     color: #676666
-}
-
-.switch-material.switch-light > span {
-    align-self: center;
 }
 
 .switch-material.switch-light > span {
