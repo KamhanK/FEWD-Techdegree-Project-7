@@ -195,6 +195,7 @@ main {
     margin-left: 1rem;
     border-radius: 5px;
     border: 1px solid #D8D8D8;
+    outline: none;
 }
 
 /* Alert Styles */
@@ -400,6 +401,7 @@ li.traffic-nav-link {
     margin-bottom: 1rem;
     border-radius: 5px;
     border: 1px solid #D8D8D8;
+    outline: none;
 }
 
 .form-area {
@@ -409,6 +411,7 @@ li.traffic-nav-link {
     border-radius: 5px;
     border: 1px solid #D8D8D8;
     resize: none;
+    outline: none;
 }
 
 .button-primary-send {
