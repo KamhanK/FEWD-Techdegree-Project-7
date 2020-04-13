@@ -436,18 +436,18 @@ li.traffic-nav-link {
 
 .notif-email-txt,
 .send-profile-txt {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .notif-email-txt label,
 .send-profile-txt label {
-  flex-basis: 60%;
+    flex-basis: 60%;
 }
 
 .notif-email-txt input,
 .send-profile-txt input {
-  flex-basis: 40%;
+    flex-basis: 40%;
 }
 
 .notif-email-txt {
@@ -464,14 +464,75 @@ li.traffic-nav-link {
     color: #676666
 }
 
-.switch-material.switch-light > span {
-    background-color: #7377BF;
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 36px;
 }
 
-.switch-material.switch-light input:not(:checked) ~ span:after,
-.switch-material.switch-light input:checked ~ span:before,
-.switch-toggle.switch-material input:checked + label:after {
-    animation: none;
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .2s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: .2s;
+}
+
+input:checked + .slider {
+    background-color: #7477bf;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 3px #ccc;
+}
+
+input:checked + .slider:before {
+    transform: translateX(34px);
+}
+
+.slider:after {
+    content: 'OFF';
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    font-size: .8rem;
+    font-weight: bold;
+}
+input:checked + .slider:after {
+    content: 'ON';
+    left: 25%;
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
 
 select.form-field {
