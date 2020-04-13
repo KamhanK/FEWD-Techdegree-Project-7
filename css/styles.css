@@ -436,10 +436,12 @@ li.traffic-nav-link {
   display: flex;
   align-items: center;
 }
+
 .notif-email-txt label,
 .send-profile-txt label {
   flex-basis: 60%;
 }
+
 .notif-email-txt input,
 .send-profile-txt input {
   flex-basis: 40%;
