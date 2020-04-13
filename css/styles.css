@@ -468,6 +468,12 @@ li.traffic-nav-link {
     background-color: #7377BF;
 }
 
+.switch-material.switch-light input:not(:checked) ~ span:after,
+.switch-material.switch-light input:checked ~ span:before,
+.switch-toggle.switch-material input:checked + label:after {
+    animation: none;
+}
+
 select.form-field {
     height: 3rem;
     padding: 1rem;
