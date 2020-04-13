@@ -419,6 +419,9 @@ li.traffic-nav-link {
 
 /* Settings Styles */
 
+.settings {
+    padding: 1rem;
+}
 .switch-light {
     display: flex;
     flex-direction: row;
