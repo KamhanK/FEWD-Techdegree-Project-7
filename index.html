@@ -223,14 +223,14 @@
                 class="form-field" id="userField">
                 <textarea placeholder="Message for user" class="form-area"
                 id= "messageField" ></textarea>
-                <button class="button-primary" id="send" >SEND</button>
+                <button class="button-primary-send" id="send" >SEND</button>
             </form>
         </section>
         <!-- local settings widget -->
         <section class="settings">
             <h3>SETTINGS</h3>
             <!-- custom CSS toggle code-->
-            <div class="large-3">
+            <div class="large-3 notif-email-txt">
                 <label class="switch-light switch-material" onclick="">
                     <input type="checkbox">
         
@@ -246,7 +246,7 @@
                 </label>
             </div>
             <!-- custom CSS toggle code-->
-            <div class="large-3">
+            <div class="large-3 send-profile-txt">
                 <label class="switch-light switch-material" onclick="">
                     <input type="checkbox">
         
@@ -261,19 +261,17 @@
                     </span>
                 </label>
             </div>
-            <div class="timezone">
             <!-- select timezone -->
                 <select class="form-field" id="timezone">
                     <option disabled selected>Select a Timezone</option>
-                    <option>Eastern</option>
-                    <option>Central</option>
-                    <option>Mountain</option>
-                    <option>Pacific</option>
+                    <option>Eastern Standard Time (EST)</option>
+                    <option>Central Standard Time (CST)</option>
+                    <option>Mountain Standard Time (MST)</option>
+                    <option>Pacific Standard Time (PST)</option>
                 </select>
-            </div>
             <div class="settings-button">
-                <button class="button-primary" id="save">Save</button>
-                <button class="button-disabled" id="cancel">Cancel</button>
+                <button class="button-primary-save" id="save">Save</button>
+                <button class="button-disabled-cancel" id="cancel">Cancel</button>
             </div>
         </section>
     </main>
