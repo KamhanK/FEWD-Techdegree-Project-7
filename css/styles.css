@@ -51,7 +51,8 @@ canvas {
 }
 
 .widget-container-full​, ​
-.widget-container-half​ { ​
+.widget-container-half,
+.widget-container-mobile { ​
     position: relative;
     margin: auto;
     width: 95vw;
@@ -151,9 +152,12 @@ main {
 }
 
 .traffic,
-.daily,
-.mobile {
+.daily {
     padding-bottom: 1rem;
+}
+
+.mobile {
+    padding-bottom: 2rem;
 }
 
 /* Main Header Styles */
@@ -635,7 +639,11 @@ select#timezone.form-field {
         ​width​: ​90vw​; 
     }
     ​.widget-container-half​ {
-        width​: ​45vw​; 
+        width​: ​45vw​;
+    }
+
+    .widget-container-mobile {
+        width: 95%;
     }
 
     /* Image Styles */

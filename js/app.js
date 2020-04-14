@@ -24,6 +24,8 @@ alertBanner.innerHTML =
 
 const trafficCanvas = document.getElementById("traffic-chart");
 
+Chart.defaults.global.elements.point.pointStyle = 'circle';
+
 // data for traffic line chart
 let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3",
@@ -32,14 +34,17 @@ let trafficData = {
         data: [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500,
     2500],
         backgroundColor: 'rgba(116, 119, 191, .3)',
-        borderWidth: 1,
+        borderColor: '#A9ACE5',
+        borderWidth: 2,
         lineTension: 0,
+        pointBackgroundColor: '#FFFFFF',
+        pointBorderColor: '#7477BF',
+        pointBorderWidth: 2,
+        pointRadius: 4
     }]
 };
 
 let trafficOptions = {
-    responsive: true,
-    maintainAspectRatio: true,
     aspectRatio: 2.5,
     animation: {
         duration: 0
@@ -77,8 +82,6 @@ const dailyData = {
     }]
 };
     const dailyOptions = {
-        responsive: true,
-        maintainAspectRatio: true,
         scales: {
             yAxes: [{
                 ticks: {
@@ -117,8 +120,6 @@ const mobileData = {
 };
 
 const mobileOptions = {
-    responsive: true,
-    maintainAspectRatio: true,
     legend: {
         position: 'right',
         labels: {
