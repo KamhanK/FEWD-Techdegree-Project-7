@@ -82,6 +82,7 @@ span {
 
 .bell {
     width: 20px;
+    transition: .2s;
 }
 
 .bell:hover {
