@@ -82,7 +82,19 @@ span {
 
 .bell {
     width: 20px;
+}
+
+.bell:hover {
+    transform: scale(1.15);
+}
+
+.notif-icon {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: greenyellow;
     margin-right: 10px;
+    margin-bottom: 35px;
 }
 
 .header-user-vr {
@@ -385,6 +397,15 @@ li.traffic-nav-link {
 .members-text a:hover,
 .members-text a:active {
     color: #7377BF;
+}
+
+/* Activity Styles */
+
+.angle-brk {
+    margin: 0px 0px 0px auto;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #7377BF; 
 }
 
 /* Message Styles */
