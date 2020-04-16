@@ -73,7 +73,7 @@ let trafficData = {
 let trafficOptions = {
     aspectRatio: 2.5,
     animation: {
-        duration: 0
+        duration: 1000
     },
     scales: {
         yAxes: [{
@@ -100,7 +100,7 @@ function addData(chart, data) {
     chart.update();
 }
 
-function removeData(chart) {
+function {
     chart.data.datasets.forEach((dataset) => {
         dataset.data = [];
     });
