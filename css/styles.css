@@ -283,8 +283,16 @@ li.traffic-nav-link {
     list-style: none;
     margin-left: 15px;
     margin-right: 15px;
+    padding: 5px;
     color: #676666;
     cursor: pointer;
+}
+
+li.active {
+    background-color: #81C98F;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
 
 .traffic-h3 {
