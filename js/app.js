@@ -1,4 +1,4 @@
-/* Notfication Dropdown Menu */
+/* Dropdown Notfication Menu */
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -100,13 +100,6 @@ function addData(chart, data) {
     chart.update();
 }
 
-function {
-    chart.data.datasets.forEach((dataset) => {
-        dataset.data = [];
-    });
-    chart.update();
-}
-
 const listItems = document.querySelectorAll(".traffic-nav li");
 
 for (let i = 0; i < listItems.length; i += 1) {
@@ -114,7 +107,6 @@ for (let i = 0; i < listItems.length; i += 1) {
         const active = document.querySelector(".active");
         active.className = event.target.className.replace(" active", "");
         this.className += " active";
-        removeData(trafficChart);
         addData(trafficChart, chartData[i]);
     });
 }
