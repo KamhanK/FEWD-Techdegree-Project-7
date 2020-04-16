@@ -44,6 +44,13 @@ alertBanner.innerHTML =
 
 // traffic widget
 
+const chartData = [
+    [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500, 2500],
+    [650, 950, 2150, 650, 2350, 60, 1700, 2400, 500, 1850, 1500],
+    [50, 850, 2050, 250, 1500, 300, 2100, 1000, 750, 850, 1200],
+    [200, 1450, 750, 2250, 100, 400, 2250, 950, 1650, 800, 1700]
+]
+
 const trafficCanvas = document.getElementById("traffic-chart");
 
 // data for traffic line chart
@@ -51,8 +58,7 @@ let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3",
 "4-10", "11-17", "18-24", "25-31"],
     datasets: [{
-        data: [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500,
-    2500],
+        data: chartData[0],
         backgroundColor: 'rgba(116, 119, 191, .3)',
         borderColor: '#A9ACE5',
         borderWidth: 2,
@@ -86,6 +92,32 @@ let trafficChart = new Chart(trafficCanvas, {
     data: trafficData,
     options: trafficOptions
 });
+
+function addData(chart, data) {
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data = data;
+    });
+    chart.update();
+}
+
+function removeData(chart) {
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data = [];
+    });
+    chart.update();
+}
+
+const listItems = document.querySelectorAll(".traffic-nav li");
+
+for (let i = 0; i < listItems.length; i += 1) {
+    listItems[i].addEventListener('click', function(event) {
+      const active = document.querySelector(".active");
+      active.className = event.target.className.replace(" active", "");
+      this.className += " active";
+      removeData(trafficChart);
+      addData(trafficChart, chartData[i]);
+    });
+  }
 
 // daily widget
 

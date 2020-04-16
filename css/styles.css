@@ -284,6 +284,7 @@ li.traffic-nav-link {
     margin-left: 15px;
     margin-right: 15px;
     color: #676666;
+    cursor: pointer;
 }
 
 .traffic-h3 {
