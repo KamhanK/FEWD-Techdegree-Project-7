@@ -551,7 +551,7 @@ return _;
 
 }());
 
-/* Custom Code */
+/* Custom Search Code */
 
 var input = document.getElementById("userField");
 new Awesomplete(input, {
