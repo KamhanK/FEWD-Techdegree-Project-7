@@ -550,3 +550,10 @@ if (typeof module === "object" && module.exports) {
 return _;
 
 }());
+
+/* Custom Code */
+
+var input = document.getElementById("userField");
+new Awesomplete(input, {
+	list: ["Josh Sullivan", "Victoria Chambers", "Dale Byrd", "Dawn Wood", "Dan Oliver"]
+});

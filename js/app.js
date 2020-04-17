@@ -181,11 +181,6 @@ let mobileChart = new Chart(mobileCanvas, {
 
 /* Messaging Section */
 
-var input = document.getElementById("userField");
-new Awesomplete(input, {
-	list: ["Josh Sullivan", "Victoria Chambers", "Dale Byrd", "Dawn Wood", "Dan Oliver"]
-});
-
 const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
