@@ -210,13 +210,12 @@ const timeZone = document.getElementById('timezone');
 document.getElementById('save').addEventListener('click', () => {
     localStorage.setItem('email', emailToggle.checked);
     localStorage.setItem('profile', profileToggle.checked);
-    localStorage.setItem('time', timeZone.value);
+    localStorage.setItem('time', timeZone[timeZone.selectedIndex]);
 });
 
 document.getElementById('cancel').addEventListener('click', () => {
     localStorage.removeItem('email');
     localStorage.removeItem('profile');
-    localStorage.removeItem('time');
 });
 
 emailToggle.checked = JSON.parse(localStorage.getItem('email'));
@@ -226,6 +225,8 @@ timeZone.value = JSON.parse(localStorage.getItem('time'));
 console.log(emailToggle.checked);
 console.log(profileToggle.checked);
 console.log(timeZone.value);
+console.log(localStorage.setItem);
+
 
 
 
