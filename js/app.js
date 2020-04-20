@@ -233,14 +233,7 @@ emailToggle.checked = JSON.parse(localStorage.getItem('email'));
 profileToggle.checked = JSON.parse(localStorage.getItem('profile'));
 timeZone.selectedIndex = localStorage.getItem('time');
 
-console.log(emailToggle.checked);
-console.log(profileToggle.checked);
-console.log(timeZone.value);
-console.log(localStorage);
-
-
-
-
-
-
-
+// console.log(emailToggle.checked);
+// console.log(profileToggle.checked);
+// console.log(timeZone.value);
+// console.log(localStorage);
