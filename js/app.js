@@ -48,7 +48,7 @@ const chartData = [
     [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250, 1500, 2500],
     [650, 950, 2150, 650, 2350, 500, 1700, 1000, 1500, 750, 1500],
     [500, 850, 2050, 250, 1500, 300, 2100, 1000, 1500, 850, 1200],
-    [200, 1450, 750, 2250, 100, 400, 2250, 950, 1650, 800, 1700]
+    [200, 1450, 750, 2250, 500, 800, 2250, 950, 1650, 800, 1700]
 ]
 
 const trafficCanvas = document.getElementById("traffic-chart");
@@ -200,5 +200,35 @@ send.addEventListener('click', () => {
         user.value === "" && message.value === "";
     }
 });
+
+/* Settings Section */
+
+const emailToggle = document.getElementById('email-toggle');
+const profileToggle = document.getElementById('profile-toggle');
+const timeZone = document.getElementById('timezone');
+
+document.getElementById('save').addEventListener('click', () => {
+    localStorage.setItem('email', emailToggle.checked);
+    localStorage.setItem('profile', profileToggle.checked);
+    localStorage.setItem('time', timeZone.value);
+});
+
+document.getElementById('cancel').addEventListener('click', () => {
+    localStorage.removeItem('email');
+    localStorage.removeItem('profile');
+    localStorage.removeItem('time');
+});
+
+emailToggle.checked = JSON.parse(localStorage.getItem('email'));
+profileToggle.checked = JSON.parse(localStorage.getItem('profile'));
+timeZone.value = JSON.parse(localStorage.getItem('time'));
+
+console.log(emailToggle.checked);
+console.log(profileToggle.checked);
+console.log(timeZone.value);
+
+
+
+
 
 
