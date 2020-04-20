@@ -210,28 +210,33 @@ const timeZone = document.getElementById('timezone');
 document.getElementById('save').addEventListener('click', () => {
     localStorage.setItem('email', emailToggle.checked);
     localStorage.setItem('profile', profileToggle.checked);
-    localStorage.setItem('time', timeZone[timeZone.selectedIndex]);
+    localStorage.setItem('time', timeZone.selectedIndex);
 });
 
 document.getElementById('cancel').addEventListener('click', () => {
-    if (document.getElementById('email-toggle').checked = true) {
-        document.getElementById('email-toggle').checked = false;
+    if (emailToggle.checked = true) {
+        emailToggle.checked = false;
     }
-    if (document.getElementById('profile-toggle').checked = true) {
-        document.getElementById('profile-toggle').checked = false;
+    if (profileToggle.checked = true) {
+        profileToggle.checked = false;
     }
+    if (timeZone.selectedIndex != 0) {
+        timeZone.selectedIndex = 0;
+    }
+
     localStorage.removeItem('email');
     localStorage.removeItem('profile');
+    localStorage.removeItem('time');
 });
 
 emailToggle.checked = JSON.parse(localStorage.getItem('email'));
 profileToggle.checked = JSON.parse(localStorage.getItem('profile'));
-timeZone.value = JSON.parse(localStorage.getItem('time'));
+timeZone.selectedIndex = localStorage.getItem('time');
 
 console.log(emailToggle.checked);
 console.log(profileToggle.checked);
 console.log(timeZone.value);
-console.log(localStorage.setItem);
+console.log(localStorage);
 
 
 
