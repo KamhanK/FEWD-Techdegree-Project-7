@@ -18,7 +18,7 @@ window.onclick = function(event) {
             }
         }
     }
-}
+};
 
 /* Alert Banner */
 
@@ -33,6 +33,7 @@ alertBanner.innerHTML =
         <p class="alert-banner-close">x</p>
     </div>
     `
+;
     alertBanner.addEventListener('click', e => {
         const element = e.target;
         if (element.classList.contains("alert-banner-close")) {
@@ -144,7 +145,7 @@ const dailyData = {
         legend : {
             display: false
         }
-    }
+    };
 
 let dailyChart = new Chart(dailyCanvas, {
     type: 'bar',
@@ -179,7 +180,7 @@ const mobileOptions = {
             fontStyle: 'bold'
         }
     }
-}
+};
 
 let mobileChart = new Chart(mobileCanvas, {
     type: 'doughnut',
