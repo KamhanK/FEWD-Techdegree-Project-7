@@ -214,6 +214,12 @@ document.getElementById('save').addEventListener('click', () => {
 });
 
 document.getElementById('cancel').addEventListener('click', () => {
+    if (document.getElementById('email-toggle').checked = true) {
+        document.getElementById('email-toggle').checked = false;
+    }
+    if (document.getElementById('profile-toggle').checked = true) {
+        document.getElementById('profile-toggle').checked = false;
+    }
     localStorage.removeItem('email');
     localStorage.removeItem('profile');
 });
