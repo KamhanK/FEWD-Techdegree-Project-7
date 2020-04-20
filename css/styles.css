@@ -50,14 +50,6 @@ canvas {
     max-width: 100%;
 }
 
-.widget-container-full​, ​
-.widget-container-half,
-.widget-container-mobile { ​
-    position: relative;
-    margin: auto;
-    width: 95vw;
-}
-
 /* Header Styles */
 
 header {
@@ -701,14 +693,7 @@ select#timezone.form-field {
     }
 
     /* Chart Styles */
-
-    ​.widget-container-full​ {
-        ​width​: ​90vw​; 
-    }
-    ​.widget-container-half​ {
-        width​: ​45vw​;
-    }
-
+    
     .widget-container-mobile {
         width: 95%;
     }
