@@ -51,7 +51,7 @@ const chartData = [
     {"points": [650, 950, 2150, 650, 2350, 500, 1700],
     "labels": ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]},
     {"points": [500, 850, 2050, 250, 1500, 300, 2100, 1000],
-    "labels": ["Week 1", "Week 2", "Week 3","Week 4", "Week 5", "Week 6", "Week 7","Week 8"]},
+    "labels": ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", "Week 6", "Week 7", "Week 8"]},
     {"points": [200, 1450, 750, 2250, 500, 800, 2250, 950, 1650, 800, 1700, 750],
     "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]},
 ];
