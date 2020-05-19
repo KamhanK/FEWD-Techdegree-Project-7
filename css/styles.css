@@ -622,133 +622,133 @@ select#timezone.form-field {
 
 /* Media Queries */
 
-@media only screen and (min-width: 768px) {
-    
-    /* Base & Misc Styles */
-
-    header {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .hd-user-name {
-        font-size: 1rem;
-        margin: 0px 0px 0px 10px;
-    }
-
-    nav {
-        width: 85px;
-    }
-
-    .mobile {
-        border-left: 1px solid #D8D8D8;
-    }
-
-    .social-container {
-        margin: 1rem 1rem 2rem 1rem;
-    }
-    
-    .activity {
-        border-left: 1px solid #D8D8D8;
-    }
-    
-    .settings {
-        border-left: 1px solid #D8D8D8;
-    }
-    
-    /* Grid Styles */
-
-    .grid-container {
-        grid-template-columns: 85px 1fr;
-        grid-template-areas:
-        "header header"
-        "nav main";
-    }
+    @media only screen and (min-width: 768px) {
         
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+        /* Base & Misc Styles */
 
-    .main-header {
-        grid-column: 1 / span 2;
-        grid-row: 1;
-    }
-    
-    .alert {
-        grid-column: 1 / span 2;
-        grid-row: 2;
-    }
+        header {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
 
-    .traffic, .social {
-        grid-column: 1 / span 2;
-    }
+        .hd-user-name {
+            font-size: 1rem;
+            margin: 0px 0px 0px 10px;
+        }
 
-    .daily, .members, .message {
-        grid-column: 1 / span 1;
-    }
+        nav {
+            width: 85px;
+        }
 
-    .mobile, .activity, .settings {
-        grid-column: 2 / span 1;
-    }
+        .mobile {
+            border-left: 1px solid #D8D8D8;
+        }
 
-    /* Chart Styles */
-    
-    .widget-container-mobile {
-        width: 95%;
-    }
-
-    /* Image Styles */
-
-    .bell {
-        width: 25px;
-    }
-
-    .profile-image {
-        width: 40px;
-    }
-
-    .nav-img {
-        width: 30px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    /* Flexbox Styles */
-
-    nav {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    .social-wrapper {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Message Styles */
-
-    .message {
-        padding: 0rem 1rem 75px 1rem;
-    }
-
-    /* Settings Styles */
-
-    .settings {
-        padding: 0rem 1rem 75px 1rem;
-    }
-
-}
-
-@media only screen and (min-width: 1024px) {
-       
-    /* Base & Misc Styles */
-
-    .grid-container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-}
+        .social-container {
+            margin: 1rem 1rem 2rem 1rem;
+        }
         
+        .activity {
+            border-left: 1px solid #D8D8D8;
+        }
+        
+        .settings {
+            border-left: 1px solid #D8D8D8;
+        }
+        
+        /* Grid Styles */
+
+        .grid-container {
+            grid-template-columns: 85px 1fr;
+            grid-template-areas:
+            "header header"
+            "nav main";
+        }
+            
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .main-header {
+            grid-column: 1 / span 2;
+            grid-row: 1;
+        }
+        
+        .alert {
+            grid-column: 1 / span 2;
+            grid-row: 2;
+        }
+
+        .traffic, .social {
+            grid-column: 1 / span 2;
+        }
+
+        .daily, .members, .message {
+            grid-column: 1 / span 1;
+        }
+
+        .mobile, .activity, .settings {
+            grid-column: 2 / span 1;
+        }
+
+        /* Chart Styles */
+        
+        .widget-container-mobile {
+            width: 95%;
+        }
+
+        /* Image Styles */
+
+        .bell {
+            width: 25px;
+        }
+
+        .profile-image {
+            width: 40px;
+        }
+
+        .nav-img {
+            width: 30px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        /* Flexbox Styles */
+
+        nav {
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .social-wrapper {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Message Styles */
+
+        .message {
+            padding: 0rem 1rem 75px 1rem;
+        }
+
+        /* Settings Styles */
+
+        .settings {
+            padding: 0rem 1rem 75px 1rem;
+        }
+
+    }
+
+    @media only screen and (min-width: 1024px) {
+        
+        /* Base & Misc Styles */
+
+        .grid-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+    }
+            
