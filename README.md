@@ -5,8 +5,8 @@
 - HTML
 - CSS
 - JavaScript
-- Local Storage
 - Autocomplete JavaScript Widget
+- Local Storage
 - Grid Layout
 - Flexbox
 - Mobile-First Responsive Web Design
