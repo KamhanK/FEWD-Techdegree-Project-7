@@ -1,6 +1,6 @@
 # Techdegree Project 7 - WebApp Dashboard
 
-**Skills Used:**
+**Skills & Technologies Used:**
 
 - HTML
 - CSS
