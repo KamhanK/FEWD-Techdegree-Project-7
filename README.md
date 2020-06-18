@@ -40,6 +40,6 @@ Use local storage to save the settings.
 
 Exceeds Expectations
 
-You can see the live project at the following link: https://shoaibkamalkhan.github.io/.
+You can see the live project at the following link: https://shoaibkamalkhan.github.io/FEWD-TDP-7-WebApp-Dashboard.
 
 You can see my portfolio at the following link: https://shoaibkamalkhan.github.io.
