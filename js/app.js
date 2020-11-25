@@ -194,6 +194,8 @@ const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
 
+/* This event listener listens for any click events in the username and message input fields and diplays the relevant message based on the value. */
+
 send.addEventListener('click', () => {
     // ensure user and message fields are filled out
     if (user.value === "" && message.value === "") {
@@ -215,6 +217,8 @@ send.addEventListener('click', () => {
 const emailToggle = document.getElementById('email-toggle');
 const profileToggle = document.getElementById('profile-toggle');
 const timeZone = document.getElementById('timezone');
+
+/* These event listeners listen for any click events in the settings section and save the settings to local storage. */
 
 document.getElementById('save').addEventListener('click', () => {
     localStorage.setItem('email', emailToggle.checked);
